@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1199px) {
+    section.collectiondetailpage {
+        padding: 31px 0;
+        height: auto;
+    }
+
+    .breadcrumbs h2 {
+        font-size: 36px;
+    }
+
+    .whiteBox {
+        padding: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .sidenavs {
+        width: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        overflow-x: hidden;
+        background: #052c43;
+        height: 100vh;
+        transition: all 0.3s;
+        z-index: 9999999;
+        padding-top: 45px;
+    }
+
+    .information-text {
+        margin-top: 30px;
+    }
+
+    .page-header {
+        opacity: 1;
+    }
+
+    .toggle-bar {
+        display: block !important;
+        color: #052c43;
+    }
+
+    span.closebtn {
+        display: block !important;
+        text-align: right;
+        color: #fff;
+        position: absolute;
+        right: 19px;
+        top: 10px;
+        font-size: 20px;
+    }
+
+    .navigation div#mySidenavs ul {
+        display: block;
+    }
+
+    .navigation div#mySidenavs ul li {
+        margin-left: 0px;
+    }
+
+    .navigation div#mySidenavs ul li a {
+        padding: 7px 20px;
+        display: block;
+        color: #fff;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .whiteBox {
+        max-width: 100%;
+    }
+}
