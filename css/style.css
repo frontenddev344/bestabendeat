@@ -101,7 +101,7 @@ header.header {
 
 .navigation div#mySidenavs ul li a::after {
     position: absolute;
-    bottom: 0;
+    bottom: -6px;
     content: '';
     display: block;
     width: 0;
@@ -118,6 +118,11 @@ header.header {
     left: 0;
 }
 
+.navigation div#mySidenavs ul li a.active::after {
+    width: 100%;
+    right: initial;
+    left: 0;
+}
 
 .page-header {
     width: 100%;
@@ -553,21 +558,25 @@ section.unser {
     padding-bottom: 10px;
     font-weight: 500;
 }
-.unser-wrapper p  a{
+
+.unser-wrapper p a {
     color: #052c43;
 }
+
 /*  */
 footer.footer {
     background: linear-gradient(90deg, #1a1a1f 0, #292930 50%, #1a1a1f);
-    padding: 50px 0  0 0; 
+    padding: 50px 0 0 0;
     position: relative;
     margin-top: 100px;
-    
+
 }
+
 .compleet-c p {
     color: #fff;
     font-weight: 600;
 }
+
 svg.swoop-top-svg {
     position: absolute;
     left: 0;
@@ -594,9 +603,11 @@ svg.swoop-top-svg {
     padding: 9px;
     display: block;
 }
-.footer-top ul li a:hover{
+
+.footer-top ul li a:hover {
     color: #4f86f9;
 }
+
 .footer-social {
     margin-top: 18px;
     margin-bottom: 18px;
@@ -622,6 +633,7 @@ svg.swoop-top-svg {
     text-transform: capitalize;
 
 }
+
 .compleet-c {
     text-align: center;
     padding-top: 50px;
