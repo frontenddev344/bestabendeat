@@ -418,7 +418,7 @@ section.inner-page.contact{
 
 /* FAQS */
 .accordion {
-    color: #fff;
+    color: #000;
     width: 100%;
     border: none;
     text-align: left;
@@ -429,7 +429,9 @@ section.inner-page.contact{
     border-radius: 5px 5px 0px 0px;
     font-size: 18px;
     font-weight: 500;
-    background: #052c43;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 }
 
 .sub-acc {
@@ -448,16 +450,17 @@ button.accordion.main-acc.one:focus {
 }
 
 .panel.main-panel {
-    background: #052c43;
+    background: #fff;
     border-radius: 0px 0px 5px 5px;
     height: 100%;
     border-top: 1px solid #ccc;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .panel.main-panel p {
     padding: 20px;
     font-size: 16px;
-    color: #fff;
+    color: #000;
     line-height: 30px;
 }
 
@@ -481,7 +484,7 @@ button.accordion.main-acc.one.dr {
 
 .accordion:after {
     content: "\002B";
-    color: #fff;
+    color: #000;
     font-weight: bold;
     float: right;
     margin-left: 5px;
