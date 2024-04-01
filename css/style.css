@@ -570,6 +570,7 @@ footer.footer {
     position: relative;
 
 }
+
 section.terms {
     padding-bottom: 50px;
 }
@@ -713,4 +714,32 @@ section.regrets {
     font-size: 20px;
     text-align: center;
     margin-bottom: 14px;
+}
+
+.magnifying {
+    display: flex;
+    align-items: center;
+}
+
+span.icon-search {
+    position: absolute;
+    top: 4px;
+    right: 8px;
+    color: #4f86f9;
+}
+
+.search-container {
+    position: relative;
+    margin: 0 0 0 30px;
+}
+
+span input {
+    padding: 3px;
+    padding-right: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+    background-color: rgb(241 241 241);
+    border: transparent;
+    border-radius: 4px;
+    outline: none;
 }
