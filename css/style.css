@@ -394,11 +394,16 @@ section.inner-page::after {
 }
 
 section.inner-page.faq {
-    background: url(../images/banner.jpg);
+    background: url(../images/faq.jpg)no-repeat;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+section.inner-page.contact{
+    background: url(../images/contact.jpg);
     background-size: cover;
     background-position: center;
 }
