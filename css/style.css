@@ -568,8 +568,10 @@ footer.footer {
     background: linear-gradient(90deg, #1a1a1f 0, #292930 50%, #1a1a1f);
     padding: 50px 0 0 0;
     position: relative;
-    margin-top: 100px;
 
+}
+section.terms {
+    padding-bottom: 50px;
 }
 
 .compleet-c p {
@@ -696,6 +698,7 @@ section.regrets {
     background: #fff;
     padding: 30px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .regrets-inner h2 {
