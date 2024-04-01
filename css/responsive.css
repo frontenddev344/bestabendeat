@@ -58,6 +58,7 @@
 
     .navigation div#mySidenavs ul li {
         margin-left: 0px;
+        padding-bottom:10px;
     }
 
     .navigation div#mySidenavs ul li a {
@@ -74,7 +75,17 @@
 
     .search-container {
         position: relative;
-        margin: 10px 0 0 20px;
+        margin: 24px 0 0 20px;
+    }
+
+    .navigation div#mySidenavs ul li a.active::after {
+        left: 21px;
+    }
+
+    .navigation div#mySidenavs ul li a:hover::after {
+        width: 100%;
+        right: initial;
+        left: 21px;
     }
 }
 
@@ -82,4 +93,23 @@
     .whiteBox {
         max-width: 100%;
     }
+
+    .logo {
+        width: 50%;
+    }
+
+    section.trend {
+
+        height: 400px;
+
+    }
+
+    section.inner-page.faq {
+        height: 400px;
+    }
+
+    section.inner-page.contact {
+        height: 400px;
+    }
+
 }
