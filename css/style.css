@@ -673,6 +673,7 @@ section.regrets {
 
 .regrets-inner {
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .stop-color h4 {
@@ -680,6 +681,7 @@ section.regrets {
     margin-bottom: 10px;
     font-weight: 600;
     text-transform: capitalize;
+    line-height: 30px;
 }
 
 .stop-color p {
@@ -692,7 +694,7 @@ section.regrets {
     height: 100%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background: #fff;
-    padding: 23px;
+    padding: 30px;
     text-align: center;
 }
 
