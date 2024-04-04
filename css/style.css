@@ -682,7 +682,9 @@ section.regrets {
 .regrets-wrapper .row .col-lg-4.col-md-6 {
     margin-bottom: 30px;
 }
-
+.regrets-wrapper .row .col-lg-6 {
+    margin-bottom: 30px;
+}
 .regrets-inner {
     margin-bottom: 50px;
     text-align: center;
@@ -716,6 +718,8 @@ section.regrets {
     text-align: center;
     margin-bottom: 16px;
     margin-left: auto;
+    background: #4f86f942;
+    padding: 10px;
     margin-right: auto;
 }
 
