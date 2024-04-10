@@ -139,6 +139,12 @@
         height: 400px;
     }
 
+    #cookie-popup p:nth-child(2) {
+        font-size: 14px;
+        line-height: 28px;
+
+    }
+
 
 }
 
