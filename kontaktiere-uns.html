@@ -82,6 +82,56 @@
             </div>
         </div>
     </section>
+
+
+    <section class="myForm-box">
+        <div class="container">
+            <div class="myForminner">
+                <h3>Kontakt Formular
+                </h3>
+                <form id="myForm" action="/submit" method="post">
+                    <div class="form-inner">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" autocomplete="off">
+                        <div id="nameError" class="error"></div>
+                    </div>
+                    <div class="form-inner">
+                        <label for="last_name">zuletzt Name*</label>
+                        <input type="text" id="last_name" name="last_name" autocomplete="off">
+                        <div id="last_nameError" class="error"></div>
+                    </div>
+
+                    <div class="form-inner">
+                        <label for="email">Email*</label>
+                        <input type="email" id="email" name="email" autocomplete="off">
+                        <div id="emailError" class="error"></div>
+                    </div>
+
+                    <div class="form-inner">
+                        <label for="message">Nachricht*</label>
+                        <textarea id="message" name="message" rows="5" autocomplete="off"></textarea>
+                        <div id="messageError" class="error"></div>
+                    </div>
+                    <div class="btn-submit">
+                        <button type="button" onclick="validateForm()">Předložit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer class="footer">
         <div class="container">
             <div class="section-top-bg"><svg class="swoop-top-svg" xmlns="http://www.w3.org/2000/svg"
@@ -142,6 +192,43 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
 
+    <script>
+        function validateForm() {
+            var name = document.getElementById('name').value;
+            var last_name = document.getElementById('last_name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+            var valid = true;
+
+            // Reset previous error messages
+            document.querySelectorAll('error').forEach(function (element) {
+                element.textContent = '';
+            })
+
+            // Validation logic
+            if (!name) {
+                document.getElementById('nameError').textContent = "Please Enter Your First Name";
+                valid = false;
+            }
+            document.getElementById('last_nameError').textContent = 'Please enter your last name';
+            valid = false;
+
+            if (!email) {
+                document.getElementById('emailError').textContent = 'Please enter your email';
+                valid = false;
+            }
+
+            if (!message) {
+                document.getElementById('messageError').textContent = 'Please enter your message';
+                valid = false;
+            }
+
+            if (valid) {
+                document.getElementById('myForm').submit();
+
+            }
+        }
+    </script>
 
 
 
