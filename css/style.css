@@ -92,11 +92,11 @@ header.header {
 }
 
 .navigation div#mySidenavs ul li a.active {
-    color: #4f86f9;
+    color: #000;
 }
 
 .navigation div#mySidenavs ul li a:hover {
-    color: #4f86f9;
+    color: #000;
 }
 
 .navigation div#mySidenavs ul li a::after {
@@ -106,7 +106,7 @@ header.header {
     display: block;
     width: 0;
     height: 2px;
-    background: #4f86f9;
+    background: #000;
     transition: width .3s;
     right: 0;
     left: initial;
@@ -682,9 +682,11 @@ section.regrets {
 .regrets-wrapper .row .col-lg-4.col-md-6 {
     margin-bottom: 30px;
 }
+
 .regrets-wrapper .row .col-lg-6 {
     margin-bottom: 30px;
 }
+
 .regrets-inner {
     margin-bottom: 50px;
     text-align: center;
@@ -738,7 +740,7 @@ span.icon-search {
     position: absolute;
     top: 4px;
     right: 8px;
-    color: #4f86f9;
+    color: #000;
 }
 
 .search-container {
@@ -762,6 +764,15 @@ span input {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
 .regrets-wrapper.penguin {
     margin-top: 50px;
+}
+
+.regrets-inner h6 {
+    margin-top: 40px;
+}
+
+.regrets-inner p {
+    margin-bottom: 10px;
 }
