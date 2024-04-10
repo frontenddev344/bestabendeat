@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1398px) {
+    .navigation div#mySidenavs ul {
+        width: 30%;
+    }
+}
+
 @media only screen and (max-width: 1199px) {
     section.collectiondetailpage {
         padding: 31px 0;
@@ -90,6 +96,12 @@
 
     .navigation div#mySidenavs ul li a:hover {
         color: #fff;
+    }
+    .navigation div#mySidenavs ul {
+        width: 100%;
+    }
+    .search-container {
+        width: auto;
     }
 }
 

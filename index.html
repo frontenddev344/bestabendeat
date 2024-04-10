@@ -32,11 +32,12 @@
 
                                     <li><a href="index.html" class="active"> Casino Hotel </a></li>
                                     <li><a href="trends.html">Trends </a></li>
-                                  
+
                                 </ul>
                                 <div class="search-container">
                                     <span class="icon-search"><i class="fa-solid fa-magnifying-glass"></i></span>
-                                    <span><input type="text" name="search" id="search" placeholder="Wohin möchtest du gehen?"></span>
+                                    <span><input type="text" name="search" id="search"
+                                            placeholder="Wohin möchtest du gehen?"></span>
                                 </div>
                             </div>
                         </div>
@@ -428,13 +429,29 @@
     </footer>
 
 
+    <div id="cookie-popup">
+        <p>Cookies </p>
+        <p>Wir nutzen Cookies, um Ihr Navigationserlebnis zu verbessern. Diese Petits-Files-Texte werden auf
+            Ihrem System gespeichert. Sie akzeptieren die Verwendung von Cookies, wenn Sie mit der Nutzung
+            unserer Website fortfahren. In den Parametern Ihres Navigators können Sie Ihre Auswahl im
+            Cookie-Material ändern. Klicken Sie hier, um unsere Vertraulichkeitspolitik für mehr Informationen zu
+            konsultieren.
+        </p>
+        <button class="cookie-popup__button">Ok</button>
+    </div>
+
+
 
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/custom.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    <script>
+        $("#cookie-popup button").click(function () {
+            $("#cookie-popup").fadeOut();
+        });
+    </script>
 
 </body>
 
