@@ -58,7 +58,7 @@
 
     .navigation div#mySidenavs ul li {
         margin-left: 0px;
-        padding-bottom:10px;
+        padding-bottom: 10px;
     }
 
     .navigation div#mySidenavs ul li a {
@@ -78,14 +78,18 @@
         margin: 24px 0 0 20px;
     }
 
-    .navigation div#mySidenavs ul li a.active::after {
-        left: 21px;
+
+
+    .navigation div#mySidenavs ul li a.active {
+        color: #fff;
     }
 
-    .navigation div#mySidenavs ul li a:hover::after {
-        width: 100%;
-        right: initial;
-        left: 21px;
+    .navigation div#mySidenavs ul li a::after {
+        display: none;
+    }
+
+    .navigation div#mySidenavs ul li a:hover {
+        color: #fff;
     }
 }
 

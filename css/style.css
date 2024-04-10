@@ -851,3 +851,7 @@ section.myForm-box {
     text-transform: capitalize;
     margin-top: 6px;
 }
+
+.unser-wrapper p span {
+    font-weight: 700;
+}
