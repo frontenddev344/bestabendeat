@@ -58,6 +58,11 @@ h6 {
 
 .navigation div#mySidenavs ul {
     display: flex;
+    width: 23%;
+}
+
+div#mySidenavs {
+    width: 80%;
 }
 
 header.header {
@@ -734,6 +739,7 @@ section.regrets {
 .magnifying {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 span.icon-search {
@@ -746,6 +752,7 @@ span.icon-search {
 .search-container {
     position: relative;
     margin: 0 0 0 30px;
+    width: 30%;
 }
 
 span input {
@@ -757,6 +764,7 @@ span input {
     border: transparent;
     border-radius: 4px;
     outline: none;
+    width: 100%;
 }
 
 .avoid img {
