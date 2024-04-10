@@ -110,6 +110,10 @@
         font-size: 14px;
         width: 300px;
     }
+
+    div#mySidenavs {
+        width: 0%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
