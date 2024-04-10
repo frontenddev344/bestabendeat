@@ -97,11 +97,18 @@
     .navigation div#mySidenavs ul li a:hover {
         color: #fff;
     }
+
     .navigation div#mySidenavs ul {
         width: 100%;
     }
+
     .search-container {
         width: auto;
+    }
+
+    span input {
+        font-size: 15px;
+        width: 300px;
     }
 }
 
@@ -128,4 +135,11 @@
         height: 400px;
     }
 
+
+}
+
+@media only screen and (max-width: 424px) {
+    span input {
+        width: 250px;
+    }
 }
