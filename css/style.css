@@ -780,3 +780,9 @@ span input {
 section.unser.kalam {
     padding-top: 0;
 }
+
+section.inner-page.about {
+    background: url(../images/about.avif)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
