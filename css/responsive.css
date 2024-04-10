@@ -149,11 +149,22 @@
         font-size: 30px;
     }
 
+    #cookie-popup p:nth-child(2) {
+        font-size: 12px;
+        line-height: 24px;
+    }
 
 }
 
 @media only screen and (max-width: 424px) {
     span input {
         width: 250px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #cookie-popup {
+        right: 17px;
+        width: 322px;
     }
 }
