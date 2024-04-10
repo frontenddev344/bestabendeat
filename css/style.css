@@ -817,25 +817,27 @@ section.myForm-box {
 .form-inner textarea#message {
     display: block;
     color: #000000;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #f7f7f7;
     width: 100%;
     padding: 10px;
-    background-color: #e8eeef;
+    background-color: #f7f7f7;
 
 }
 
 .btn-submit button {
-    background: #644222;
-    border: 1px solid;
+    background: rgba(0, 0, 0, 0.8);
     padding: 14px 40px;
     color: #ffff;
     text-transform: capitalize;
     font-size: 16px;
     transition: all 0.3s;
+    border: 1px solid #000;
 }
 
 .btn-submit button:hover {
-    background-color: #aa9875;
+    background-color: transparent;
+    border: 1px solid #000;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .myForminner h3 {
